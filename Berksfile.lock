@@ -1,0 +1,15 @@
+DEPENDENCIES
+  Web_Dev_Cookbook
+    path: .
+    metadata: true
+  mongodb
+    git: git@github.com:KirtMorgan/chef_mongodb_cookbook.git
+    revision: 09c01019c9871af4d38d431321c2a89b3fe26a82
+  nodejs8
+    git: git@github.com:KirtMorgan/nodejs-cookbook.git
+    revision: bf529d4546e2527cca630d6cf4495977c93d1cb5
+
+GRAPH
+  Web_Dev_Cookbook (0.1.0)
+  mongodb (0.1.0)
+  nodejs8 (0.1.0)
